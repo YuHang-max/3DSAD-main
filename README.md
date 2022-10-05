@@ -2,7 +2,7 @@
  
 
 ## Introduction
-点云目标检测，baseline工作为VoteNet, 运行的基础环境参考自VoteNet
+点云目标检测, baseline工作为VoteNet, 运行的基础环境参考自VoteNet
 ------
 
  
