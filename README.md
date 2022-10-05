@@ -15,13 +15,10 @@ Follow VoteNet to install the pointnet++ toolkit and download the dataset. [link
 We haven't achieved compatibility with the generated data of OpenPCDet yet and use the same data format as mmdeteciton3d for now. We will try to implement indoor data pre-processing based on OpenPCDet as soon as possible.
 
 ScanNet V2
-Please install mmdeteciton3d first and follow the data preparation ScanNet V2. Then link the generated data as follows:
+Please install mmdeteciton3d first and follow the data preparation[ScanNet](https://github.com/open-mmlab/mmdetection3d/blob/master/data/scannet/README.md/).  
 
-ln -s ${mmdet3d_scannet_dir} ./RBGNet/data/scannet
 SUN RGB-D
-Please install mmdeteciton3d first and follow the data preparation Sun RGB-D. Then link the generated data as follows:
-
-ln -s ${mmdet3d_sunrgbd_dir} ./RBGNet/data/sunrgbd
+Please install mmdeteciton3d first and follow the data preparation[Sun RGB-D](https://github.com/open-mmlab/mmdetection3d/blob/master/data/sunrgbd/README.md/).  
 
 ## Run
 
