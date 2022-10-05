@@ -32,5 +32,13 @@ cd  3DSAD/ScanNet
 
 sh train.sh
 
+## test
+
+cd  3DSAD/ScanNet
+
+​   
+​    *change Line2 in train.sh (remove spring.submit; use python ... only)*
+
+sh test.sh
 
 
