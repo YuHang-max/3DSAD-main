@@ -1,12 +1,6 @@
 ##3DSAD: Size Adaptive Clustering for 3D object detection in Point Clouds
  
 
-## Introduction
-点云目标检测, baseline工作为VoteNet, 运行的基础环境参考自VoteNet
-------
-
- 
-
 ## Install
 
 Follow VoteNet to install the pointnet++ toolkit and download the dataset. [link](https://github.com/facebookresearch/votenet)
@@ -24,17 +18,11 @@ Please install mmdeteciton3d first and follow the data preparation[Sun RGB-D](ht
 
 cd  3DSAD/ScanNet
 
-​   
-​    *change Line2 in train.sh (remove spring.submit; use python ... only)*
-
 sh train.sh
 
 ## test
 
 cd  3DSAD/ScanNet
-
-​   
-​    *change Line2 in train.sh (remove spring.submit; use python ... only)*
 
 sh test.sh
 
